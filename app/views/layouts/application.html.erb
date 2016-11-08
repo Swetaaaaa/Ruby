@@ -11,7 +11,12 @@
   <div id = "wrap">
    <%= render 'shared/nav' %>
 <div class="container">
-<%= yield %>
+    <div class ="row">
+        
+         <%= render 'shared/flash_msg'%>
+         <%= yield %>
+        
+    
 </div>
 </div>
  <%= render 'shared/foo' %>
